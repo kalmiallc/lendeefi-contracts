@@ -1,0 +1,49 @@
+{
+  "name": "len-smart-contracts",
+  "version": "0.0.1",
+  "description": "Lendeefi smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "build": "npx hardhat compile",
+    "flatten": "npx hardhat flatten",
+    "coverage": "npx hardhat coverage"
+  },
+  "keywords": [
+    "nft",
+    "lending",
+    "protocol",
+    "nft",
+    "lending",
+    "protocol",
+    "lendeefi",
+    "defi",
+    "rwa",
+    "real",
+    "world",
+    "assets",
+    "lending"
+  ],
+  "author": "Lendeefi",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/merkle-tree": "^1.0.7",
+    "@types/chai": "^4.3.20",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.9.0",
+    "chai": "^4.3.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.15",
+    "hardhat-abi-exporter": "^2.10.1",
+    "solidity-coverage": "^0.8.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}
